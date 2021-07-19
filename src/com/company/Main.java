@@ -1,10 +1,12 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("xxxxxxx");
-        System.out.println("xd");
+        Scanner input = new Scanner(System.in);
+        int liczba = input.nextInt();
+        System.out.println(liczba);
     }
 }
